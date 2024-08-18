@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabaña cordon situacion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <img src="IMG/Logo.png" width="200" alt="Logo">
+        <h1>Cabaña Cordón Situación</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="activo" href="index.html">home</a></li>
+            <li><a href="nosotros.html">nosotros</a></li>
+            <li><a href="servicios.html">servicios</a></li>
+            <li><a href="galeria.html">galeria</a></li>
+            <li><a href="atracciones.html">atracciones</a></li>
+        </ul>
+    </nav>
+    <main class="holder">
+        <div class="imagen">
+            <img src="IMG/Home/Vista primavera.jpg" width="100%" alt="primavera">
+        </div>
+        <div class="columnas">
+            <section class="introduccion">
+                <h2>Descansa en la naturaleza</h2>
+                <p>A tan solo un kilometro de Trevelin, Cabañas Cordon Situación te esperan para ofrecerte un descanso
+                    absoluto lejos del ruido de la ciudad.</p>
+                <p>Trekking, ski, viñedos y el parque nacional Los alerces son
+                    algunas de las atracciones que encontrarás y difrutarás durante tu estadia.</p>
+            </section>
+            <section class="reserva">
+                <h2>Solicitu de reserva</h2>
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" class="cajas">
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" class="cajas">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="cajas">
+                    </p>
+                    <p>
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" name="telefono" class="cajas">
+                    </p>
+                    <p>
+                        <label for="llegada">Fecha y hora de llegada</label>
+                        <input type="datetime-local" name="fecha-hora-llegada" id="llegada" class="cajas">
+
+                    </p>
+                    <p>
+                        <label for="estadia">Días de permanencia</label>
+                        <select id="estadia" class="cajas">
+                            <option value="1" label="1">
+                            <option value="2" label="2">
+                            <option value="3" label="3">
+                            <option value="4" label="4">
+                            <option value="5" label="5">
+
+                        </select>
+                    </p>
+                    <input type="submit" value="enviar" name="submit" class="btn">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="columna">
+            <ul class="informacion">
+                <li>Trevelin-Chubut</li>
+                <li>Callejon peñas 539</li>
+                <li>.............</li>
+            </ul>
+            <ul class="contacto">
+                <li>
+                    <p><i class="fa-solid fa-phone"></i> 2945533253</p>
+                </li>
+                <li>
+                    <p><i class="fa-regular fa-envelope"></i> Cabañas.cs@gmail.com</p>
+                </li>
+                <li>
+                    <p><i class="fa-brands fa-instagram"></i> Cabañas.c.s</p>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
