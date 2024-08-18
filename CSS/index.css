@@ -62,6 +62,7 @@ nav ul li a.activo {
     margin-top: 20px;
     margin-left: 80px;
     margin-right: 70px;
+    gap: 20px;
 }
 
 .introduccion {
@@ -102,7 +103,8 @@ nav ul li a.activo {
     border-radius: 5px;
     border: 2px black solid;
     background-color: rgb(211, 202, 190);
-
+    font-size: 20px;
+    width: 60%;
 }
 
 .cajas:hover {
@@ -110,7 +112,9 @@ nav ul li a.activo {
     border: 2px white solid;
     box-shadow: 3px 3px 6px rgb(113, 104, 86);
 }
-
+#estadia{
+    text-align: center;
+}
 .btn {
     color: rgb(68, 59, 47);
     background-color: rgb(190, 150, 90);
